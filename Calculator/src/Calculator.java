@@ -18,6 +18,7 @@ public class Calculator {
 		}
 		return solution;
 		} catch(ArithmeticException e) {
+			System.out.println("Math error: You cant divide by 0");
 		return 0;
 		}
 		
